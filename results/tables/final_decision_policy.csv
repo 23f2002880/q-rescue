@@ -1,0 +1,22 @@
+noise_level,policy,check_budget,postselected_fidelity,acceptance_rate,fidelity_gain,resource_burden,pareto_optimal
+0.001,Yield-Saver,0,0.69446,1.0,0.0,1.12277,True
+0.001,Balanced Resilience,2,0.76071,0.86889,0.08436,2.53069,True
+0.001,Maximum Protection,4,0.81419,0.75884,0.16322,3.57422,True
+0.003,Yield-Saver,0,0.53623,1.0,0.0,1.12277,True
+0.003,Balanced Resilience,2,0.60615,0.78312,0.11707,2.53906,True
+0.003,Maximum Protection,4,0.67892,0.60863,0.23975,3.57589,True
+0.005,Yield-Saver,0,0.41121,1.0,0.0,1.12277,True
+0.005,Balanced Resilience,1,0.44453,0.86397,0.05073,1.52804,True
+0.005,Maximum Protection,4,0.55617,0.49116,0.26407,3.56585,True
+0.008,Yield-Saver,0,0.27584,1.0,0.0,1.12277,True
+0.008,Balanced Resilience,1,0.3059,0.81261,0.04861,1.52804,True
+0.008,Maximum Protection,4,0.41292,0.36381,0.25139,3.57757,True
+0.012,Yield-Saver,0,0.16489,1.0,0.0,1.12277,True
+0.012,Balanced Resilience,1,0.18544,0.75541,0.04079,1.55064,True
+0.012,Maximum Protection,4,0.27184,0.25644,0.2004,3.58092,True
+0.018,Yield-Saver,0,0.07327,1.0,0.0,1.12277,True
+0.018,Balanced Resilience,1,0.08594,0.69362,0.01932,1.53557,True
+0.018,Maximum Protection,4,0.13991,0.16756,0.11532,3.57254,True
+0.025,Yield-Saver,0,0.03106,1.0,0.0,1.12277,True
+0.025,Balanced Resilience,1,0.03428,0.63414,0.01039,1.53809,True
+0.025,Maximum Protection,4,0.05842,0.11645,0.05435,3.57589,True

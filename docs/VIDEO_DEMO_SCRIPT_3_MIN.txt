@@ -1,0 +1,68 @@
+Q-RESCUE — 3-MINUTE DEMO SCRIPT
+
+0:00–0:20 — Hook
+
+“Quantum error resilience is not simply about maximizing fidelity. Every extra
+error-detection check can consume circuit resources and reduce the number of
+shots that survive post-selection.
+
+Q-RESCUE asks: how much resilience should we actually deploy?”
+
+0:20–0:50 — Problem
+
+“Our benchmark uses an 8-qubit Clifford payload and real qiskit-paulice
+spacetime checks. We evaluate seven simulator noise levels and five check
+budgets, producing 35 measured configurations.
+
+For every configuration we record fidelity, acceptance, and circuit-resource
+burden.”
+
+0:50–1:25 — Quantum implementation
+
+“Paulice constructs the spacetime-check variants. Qiskit Aer then executes
+those circuits under a controlled noise model.
+
+The fidelity experiment samples 64 non-identity stabilizers from the 255
+available stabilizers. We report a stabilizer-expectation fidelity proxy, not
+full-state fidelity.”
+
+1:25–2:00 — Key result
+
+“At the highest tested noise level, 0 checks gives a fidelity proxy of about
+0.0311 with 100 percent acceptance.
+
+With 4 checks, the measured proxy rises to about 0.0584, but acceptance falls
+to about 11.6 percent.
+
+That is the central trade-off: better retained-sample reliability, fewer usable
+shots, and more circuit resources.”
+
+2:00–2:30 — Decision engine
+
+“We therefore build three policies.
+
+Yield-Saver always protects yield.
+Maximum Protection always selects four checks.
+Balanced Resilience selects a Pareto-aware operating point.
+
+The balanced policy adapts with the measured noise level rather than simply
+maximizing the check count.”
+
+2:30–2:50 — Interactive game
+
+“Now the research question becomes interactive.
+
+I choose the measured noise level and give the player a resilience budget.
+Q-RESCUE searches the experimentally evaluated configurations that fit inside
+that budget and returns the selected checks, fidelity proxy, acceptance,
+resource burden, and game score.
+
+This is not a toy simulator. It is a front-end to the same benchmark.”
+
+2:50–3:00 — Close
+
+“Q-RESCUE turns quantum error resilience into a resource-allocation problem:
+
+How much fidelity is worth sacrificing in usable shots and circuit resources?
+
+That is the decision layer we contribute around real quantum error detection.”

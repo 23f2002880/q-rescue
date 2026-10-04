@@ -1,0 +1,27 @@
+{
+  "experimental_records": 35,
+  "noise_levels": 7,
+  "check_budgets": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "payload_qubits": 8,
+  "payload_depth": 14,
+  "actual_max_checks": 4,
+  "sampled_stabilizers": 64,
+  "nontrivial_stabilizers_available": 255,
+  "shots_per_stabilizer": 4000,
+  "maximum_stabilizer_fidelity_proxy": 0.814193,
+  "maximum_fidelity_noise": 0.001,
+  "maximum_fidelity_check_budget": 4,
+  "highest_noise_zero_check_fidelity_proxy": 0.031062,
+  "highest_noise_four_check_fidelity_proxy": 0.058417,
+  "highest_noise_four_check_acceptance": 0.116445,
+  "qiskit_version": "2.5.2",
+  "qiskit_aer_version": "0.17.2",
+  "qiskit_paulice_version": "0.2.1",
+  "additional_quantum_simulations_in_decision_engine": false
+}

@@ -1,0 +1,12 @@
+{
+  "source_notebook": "Q_RES_CUE_McGill_Fall_Fest_2026_FINAL(1).ipynb",
+  "packaged_notebook": "notebooks/Q_RES_CUE_McGill_Fall_Fest_2026_FINAL.ipynb",
+  "benchmark_records": 35,
+  "result_source": "embedded validated notebook outputs",
+  "versions": {
+    "qiskit": "2.5.2",
+    "qiskit_aer": "0.17.2",
+    "qiskit_paulice": "0.2.1"
+  },
+  "notes": "Source notebook was synchronized for GitHub: malformed manifest version lines were corrected; interactive game scoring was aligned with the Pareto-aware Balanced Resilience scoring rule."
+}
